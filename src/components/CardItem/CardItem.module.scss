@@ -14,4 +14,10 @@
       height: 300px;
     }
   }
+  @media (max-width: 480px) {
+    & {
+      width: 200px;
+      height: 200px;
+    }
+  }
 }
