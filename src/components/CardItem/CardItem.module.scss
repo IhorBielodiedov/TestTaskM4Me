@@ -1,0 +1,17 @@
+.cardItem {
+  background: #2b7b7f;
+  width: 450px;
+  height: 450px;
+  font-weight: 900;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 600px) {
+    & {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+---
+import styles from './index.module.scss';
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import MainPage from '../components/MainPage/MainPage';
+---
+
+<Layout title="Welcome to Astro.">
+	<main className={styles.main}>
+		<MainPage client:load/>
+	</main>
+</Layout>
+
+
